@@ -7,6 +7,8 @@ To update the PowerMeter device faster, please burn the Flip Bootloader binaries
 
 The newest release of the PowerMeter Display Extension is also here as binarie file available.
 
+A beta version of the PowerMeter CSharp Application for 64 Bit Windows systems is also available. You will need this software to change the scale values because the open source google chrome app issn't ready for this usecase.
+
 License
 --------------
 PowerMeter binaries are free to use for non commercial application!
@@ -39,3 +41,15 @@ v1.0
 - recv. on two RS485 lines Data from to different PowerMeter head units
 - display data on a 2x16 Char. LCD
 - display min, max, mean and rms values for current and some data for power measures
+
+Versions History CSharp Application
+--------------
+Implemented:
+- change scale values
+- select current source
+- start bootloader
+- display and record graphes
+- record a lot of PowerMeters at the same time
+- set a easy trigger
+- set measure and average box
+- save graph to a picture (but not *.csv at the time)
