@@ -11,6 +11,7 @@ A beta version of the PowerMeter CSharp Application for 64 Bit Windows systems i
 
 License
 --------------
+Please see Atmel Flip Bootloader license at chapter "Software" (link) for ATXMega32A4U bootloader binaries license
 PowerMeter binaries are free to use for non commercial application!
 PowerMeter Display EADOG Extension binaries are free to use (GPLv2). Source code is available.
 
@@ -41,6 +42,11 @@ v1.0
 - recv. on two RS485 lines Data from to different PowerMeter head units
 - display data on a 2x16 Char. LCD
 - display min, max, mean and rms values for current and some data for power measures
+
+v1.1
+
+- run at 24 MHz with 8 MHz crystal
+- fix bootloader starting workaround 
 
 Versions History CSharp Application
 --------------
