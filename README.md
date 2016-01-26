@@ -50,7 +50,7 @@ v1.1
 
 Versions History CSharp Application
 --------------
-Implemented:
+v1.3
 - change scale values
 - select current source
 - start bootloader
@@ -59,3 +59,6 @@ Implemented:
 - set a easy trigger
 - set measure and average box
 - save graph to a picture (but not *.csv at the time)
+v1.4
+- show correct probe name in power window
+- graph can display smaller readings now (uA, mA in A)
